@@ -31,7 +31,3 @@ Sebuah website portofolio personal yang menampilkan karya dan layanan dari Ahmad
 Ahmad Zakaria  
 📷 [Instagram](https://instagram.com/...)  
 📱 WhatsApp: [Klik untuk Chat](https://wa.me/6281234567890)
-
-## 🌐 Live Preview
-[Klik untuk melihat website](https://username.github.io/Web-Photographer
-)
