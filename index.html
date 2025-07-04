@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostalgic Resonance Photography</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand">
+        <a href="#"
+          ><img
+            src="logo 2.png"
+            alt="Nostalgic Resonance Photography"
+            class="logo"
+        /></a>
+      </div>
+      <ul id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <section class="VideoH">
+      <video src="Logo_20ml.mp4" autoplay muted loop playsinline></video>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="AZR_0326 after edit.png" alt="Ahmad Zakaria" />
+        </div>
+        <div class="about-text">
+          <h1>ABOUT ME</h1>
+          <h2>I'M A PHOTOGRAPHER<br />AHMAD ZAKARIA.</h2>
+          <p>
+            I specialize in expressive, intentional portrait photography that
+            blends light, silence, and emotion. My work is grounded in calmness
+            and space—capturing a quiet presence in every frame.
+          </p>
+          <p>
+            I create timeless images that preserve emotions through the lens.
+            Every frame is meant to resonate with memory and meaning.
+          </p>
+          <h4>TOOLS & EXPERTISE</h4>
+          <div class="skill-item" onclick="toggleDetail(this)">
+            <img src="pngegg.png" alt="Photoshop" />
+            <span>Adobe Photoshop</span>
+            <div class="skill-detail">Level: Advanced</div>
+          </div>
+
+          <div class="skill-item" onclick="toggleDetail(this)">
+            <img src="pngwing.com (5).png" alt="After Effects" />
+            <span>Adobe After Effects</span>
+            <div class="skill-detail">Level: Professional</div>
+          </div>
+
+          <div class="skill-item" onclick="toggleDetail(this)">
+            <img src="pngwing.com (6).png" alt="Premiere Pro" />
+            <span>Adobe Premiere Pro</span>
+            <div class="skill-detail">Level: Advanced</div>
+          </div>
+
+          <a href="#Contact" class="booking-link">BOOKING A PHOTOSHOOT →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="gallery-header">
+        <p>
+          Studies in light, gesture, and form. Each frame<br />a pause, each
+          portrait — a presence.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img src="AZR_0306 after edit.jpg" alt="Graduation Moment" />
+          <h4>GRADUATION MOMENT</h4>
+        </div>
+        <div class="gallery-card">
+          <img src="AZE.jpg" alt="Urban Skyline" />
+          <h4>URBAN SKYLINE</h4>
+        </div>
+        <div class="gallery-card">
+          <img src="AZR_0390 after edit.jpg" alt="Walk to Future" />
+          <h4>WALK TO THE FUTURE</h4>
+        </div>
+        <div class="gallery-card">
+          <img src="AZR_0298 afterd edit.png" alt="The Explorer" />
+          <h4>THE EXPLORER</h4>
+        </div>
+      </div>
+
+      <div class="gallery-footer">
+        <h1>GALLERY</h1>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+      <h2 class="pricing-title">PRICING</h2>
+
+      <div class="pricing-item">
+        <div class="pricing-description">
+          <h3>EVENT</h3>
+        </div>
+        <div class="pricing-details">
+          <ul>
+            <li>Situational Depending From The Jobdesc</li>
+          </ul>
+          <div class="price-row">
+            <span class="price">150k to 500k</span>
+            <a href="#Contact" class="btn-book">BOOK YOUR SESSION →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-item">
+        <div class="pricing-description">
+          <h3>GRADUATION</h3>
+        </div>
+        <div class="pricing-details">
+          <ul>
+            <li>Full Sessions No Hours No Limitation</li>
+          </ul>
+          <div class="price-row">
+            <span class="price">300k</span>
+            <a href="#Contact" class="btn-book">BOOK YOUR SESSION →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-item">
+        <div class="pricing-description">
+          <h3>WEDDING</h3>
+        </div>
+        <div class="pricing-details">
+          <ul>
+            <li>Full Sessions No Hours No Limitation</li>
+          </ul>
+          <div class="price-row">
+            <span class="price">1500k</span>
+            <a href="#Contact" class="btn-book">BOOK YOUR SESSION →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="Contact-section">
+      <div class="Contact-left">
+        <img src="AZR_0326 after edit.png" alt="Model" class="model-img" />
+      </div>
+      <div class="Contact-right">
+        <div class="name-title">
+          <span class="first-name">AHMAD</span>
+          <span class="last-name">ZAKARIA</span>
+        </div>
+        <div class="social-links">
+          <a href="#">INSTAGRAM</a>
+          <a href="#">PINTEREST</a>
+          <a href="https://wa.me/62895323499938">WHATSAPP</a>
+          <span>Nostalgic Resonance</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-copy">© 2025 Ahmad Zakaria. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
